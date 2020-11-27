@@ -1,0 +1,139 @@
+.header-content {
+  background: rgba(205, 208, 227, 0.2);
+  width: 100%;
+  height: 55px;
+  padding: 16px;
+  font-weight: 600;
+  color: #5d027e;
+}
+
+.btn-pre {
+  border-radius: 15px;
+  height: 30px;
+  width: auto;
+  border: 2px solid #1223a1;
+  color: #1223a1;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.btn-struct {
+  border-radius: 10px;
+  height: 27px;
+  width: auto;
+  margin-left: 15px;
+  border: 2px solid #5d027e;
+  color: #5d027e;
+  font-weight: 500;
+}
+
+.left {
+  float: left;
+  width: 60%;
+  height: 100%;
+}
+
+.right {
+  float: right;
+  width: 40%;
+  height: 100%;
+}
+
+.ant-layout-sider {
+  position: relative;
+  min-width: 0;
+  background: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.top-left {
+  background-color: #ffffff;
+  width: 96%;
+  height: 380px;
+  margin: 20px 10px 0 20px;
+  border-radius: 20px;
+  border: 0.1px solid rgb(223, 220, 220);
+}
+
+.bottom-left {
+  background-color: #ffffff;
+  width: 96%;
+  height: 200px;
+  margin: 20px 20px 0 20px;
+  border-radius: 20px;
+  border: 0.1px solid rgb(223, 220, 220);
+}
+
+.top-right {
+  background-color: #ffffff;
+  width: 95%;
+  height: 140px;
+  margin: 20px 20px 20px 10px;
+  border-radius: 20px;
+  border: 0.1px solid rgb(223, 220, 220);
+}
+
+.mid-right {
+  background-color: #ffffff;
+  width: 95%;
+  height: 210px;
+  margin: 20px 20px 20px 10px;
+  border-radius: 20px;
+  border: 0.1px solid rgb(223, 220, 220);
+}
+
+.bottom-right {
+  background-color: #ffffff;
+  width: 95%;
+  height: 210px;
+  margin: 0 0 20px 10px;
+  border-radius: 20px;
+  border: 0.1px solid rgb(223, 220, 220);
+}
+
+.row {
+  background-color: rgba(167, 169, 179, 0.2);
+  height: 85px;
+  width: 95%;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px 20px 0 24px;
+}
+
+.ant-switch-checked {
+    background-color: purple;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: purple;
+    font-weight: 500;
+}
+
+.btn-share {
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+  color: #ffffff;
+  background-color: purple;
+}
+
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-list, .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-list {
+    margin-left: -380px;
+    font-weight: 600;
+    color: rgba(167, 169, 179, 0.2);
+}
+
+.ant-switch {
+    margin: 0 0 0 7px;
+}
+
+.content-tab3 {
+    margin: 0 10px 10px 10px;
+    font-weight: 400;
+}
+
+b {
+    color: #5d027e;
+    font-size: 15px;
+}
