@@ -1,11 +1,14 @@
 import React from 'react';
-import Sidebar from './components/sidebar';
+import { BrowserRouter as Router } from "react-router-dom";
+import Routers from "./router"
 
 class App extends React.Component {
 
   render() {
     return (
-      <Sidebar />
+      <Router>
+        <Routers />
+      </Router>
     )
   }
 }

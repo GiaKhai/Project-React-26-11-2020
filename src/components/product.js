@@ -1,16 +1,14 @@
-/** @format */
-
 import React from "react";
 import "antd/dist/antd.css";
-import "../block/content.css";
-import { Row, Col, Tabs, Switch, DownloadOutlined } from "antd";
+import "../block/product.css";
+import { Row, Col, Tabs, Switch } from "antd";
 import {
     StarOutlined,
 } from "@ant-design/icons";
 
 const { TabPane } = Tabs;
 
-class ContentComponent extends React.Component {
+class Product extends React.Component {
     render() {
         return (
           <div>
@@ -123,4 +121,4 @@ class ContentComponent extends React.Component {
         );
     }
 }
-export default ContentComponent;
+export default Product;
