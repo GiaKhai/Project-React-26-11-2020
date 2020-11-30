@@ -3,7 +3,7 @@
 import React from "react";
 import "antd/dist/antd.css";
 import "../block/content.css";
-import { Row, Col, Tabs, Switch } from "antd";
+import { Row, Col, Tabs, Switch, DownloadOutlined } from "antd";
 import {
     StarOutlined,
 } from "@ant-design/icons";
@@ -80,10 +80,42 @@ class ContentComponent extends React.Component {
                 </div>
               </div>
 
-              <div className="bottom-left">ACTACHMEMTS</div>
+              <div className="bottom-left">
+                <b>ACTACHMEMTS</b>
+                <div className="btn-bottomLeft">
+                  <button className="btn">Legal</button>
+                  <button className="btn">Fix icome</button>
+                  <button className="btn">Brouchure</button>
+                  <button className="btn">Factsheest</button>
+                </div>
+
+                <div className="table">
+                  <table>
+                    <tr>
+                      <th>14 Jul 2020</th>
+                      <th>Fixed income report 15 February, 2020</th>
+                    </tr>
+                    <tr>
+                      <th>14 Jul 2020</th>
+                      <th>Fixed income report 15 February, 2020</th>
+                    </tr>
+                    <tr>
+                      <th>14 Jul 2020</th>
+                      <th>Fixed income report 15 February, 2020</th>
+                    </tr>
+                  </table>
+                </div>
+              </div>
             </div>
             <div className="right">
-              <div className="top-right"></div>
+              <div className="top-right">
+                <div className="a">
+                  <h1>UNIQUE VIEW</h1>
+                </div>
+                <div className="b">
+                  <h1>TOTAL VIEW</h1>
+                </div>
+              </div>
               <div className="mid-right"></div>
               <div className="bottom-right"></div>
             </div>

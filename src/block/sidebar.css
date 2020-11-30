@@ -115,7 +115,12 @@ input {
 }
 
 .trigger:hover {
-  color: #1890ff;
+  color:purple;
+}
+
+.ant-menu-item-selected {
+    color:purple;
+    font-weight: 500;
 }
 
 .site-layout .site-layout-background {
@@ -147,4 +152,17 @@ input {
   text-overflow: ellipsis;
 }
 
+.ant-menu-vertical .ant-menu-item::after, .ant-menu-vertical-left .ant-menu-item::after, .ant-menu-vertical-right .ant-menu-item::after, .ant-menu-inline .ant-menu-item::after {
+    border-right: 3px solid purple;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #e0c2e4;
+}
+
+.ant-menu-inline {
+    width: 100%;
+    color: purple;
+    font-weight: 450;
+}
 
