@@ -3,11 +3,7 @@
 import React from "react";
 import "antd/dist/antd.css";
 import "../block/product.css";
-import { Row, Col, Tabs, Switch } from "antd";
-import { StarOutlined } from "@ant-design/icons";
-import { Content } from "antd/lib/layout/layout";
-
-const { TabPane } = Tabs;
+import { Row, Col, Tabs} from "antd";
 
 class Contents extends React.Component {
   render() {

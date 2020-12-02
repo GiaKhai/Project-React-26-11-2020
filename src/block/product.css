@@ -155,11 +155,19 @@ b {
 
 .btn {
   background-color: #ffffff;
-  font-weight: 500;
+  font-weight: 400;
   border: 2px solid violet;
-  border-radius: 20px;
+  border-radius: 12px;
   color: purple;
   margin-left: 20px;
+}
+
+.btn-fund {
+  background-color: #ffffff;
+  font-weight: 400;
+  border: 2px solid violet;
+  border-radius: 12px;
+  color: purple;
 }
 
 table,
@@ -201,8 +209,63 @@ td {
   margin: 10px 10px 10px 5px;
   float: right;
   border-radius: 10px;
-    padding-top: 30px;
-
+  padding-top: 30px;
 }
 
+.mid-right {
+  padding: 20px 10px 10px 10px;
+}
 
+.c {
+  width: 100%;
+  height: 40%;
+  margin-top: 5px;
+  border-radius: 15px;
+  border: 1.5px solid rgba(66, 66, 68, 0.2);
+  font-weight: 500;
+  padding: 10px 10px 10px 10px;
+}
+
+.d {
+  width: 100%;
+  height: 40%;
+  margin-top: 5px;
+  border-radius: 15px;
+  border: 1.5px solid rgba(66, 66, 68, 0.2);
+  font-weight: 500;
+  padding: 10px 10px 10px 10px;
+}
+
+.strong {
+  background-color: #43a160;
+  font-weight: 400;
+  border-radius: 10px;
+  color: #ffffff;
+float: right;
+}
+
+.bottom-right {
+  padding: 20px 10px 10px 10px;
+}
+
+.e {
+  width: 100%;
+  height: 40%;
+  border-radius: 15px;
+  border: 1.5px solid rgba(66, 66, 68, 0.2);
+  font-weight: 500;
+}
+
+.f {
+  width: 100%;
+  height: 40%;
+  margin-top: 5px;
+  border-radius: 15px;
+  border: 1.5px solid rgba(66, 66, 68, 0.2);
+  font-weight: 500;
+}
+
+img {
+  width: 150px;
+  height: 69px;
+}

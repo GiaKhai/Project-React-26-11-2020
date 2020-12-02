@@ -81,7 +81,7 @@ class Product extends React.Component {
               <div className="bottom-left">
                 <b>ACTACHMEMTS</b>
                 <div className="btn-bottomLeft">
-                  <button className="btn">Legal</button>
+                  <button className="btn-fund">Legal</button>
                   <button className="btn">Fix icome</button>
                   <button className="btn">Brouchure</button>
                   <button className="btn">Factsheest</button>
@@ -114,8 +114,42 @@ class Product extends React.Component {
                   <h1>TOTAL VIEW</h1>
                 </div>
               </div>
-              <div className="mid-right"></div>
-              <div className="bottom-right"></div>
+              <div className="mid-right">
+                <b>RELATED PRODUCTS</b>
+                <div className="c">
+                  3 Year 10% Yield Note on Ho Chi Minh Stockmarket{" "}
+                  <StarOutlined />
+                  <div className="btn-text">
+                    <button className="btn-fund">Fund</button> Sales close 14
+                    July 2020
+                    <button className="strong">Strong</button>
+                  </div>
+                </div>
+                <div className="d">
+                  3 Year 10% Yield Note on Ho Chi Minh Stockmarket{" "}
+                  <StarOutlined />
+                  <div className="btn-text">
+                    <button className="btn-fund">Fund</button> Sales close 14
+                    July 2020
+                    <button className="strong">Strong</button>
+                  </div>
+                </div>
+              </div>
+              <div className="bottom-right">
+                <b>RELATED PRODUCTS</b>
+                <div className="e">
+                  <div className="img">
+                    <img src="http://webcoban.vn/image/cat-2.jpg"></img>3 Year
+                    Change in number off share and votes in FM
+                  </div>
+                </div>
+                <div className="f">
+                  <div className="img">
+                    <img src="http://webcoban.vn/image/cat-2.jpg"></img>3 Year
+                    Change in number off share and votes in FM
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         );
